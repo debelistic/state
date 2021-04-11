@@ -4,7 +4,7 @@ import {AuthReducer} from './reducer'
 
 const initialState = {
     user: {},
-    token: null
+    isLoading: false
 };
 
 const Store = ({children}) => {
